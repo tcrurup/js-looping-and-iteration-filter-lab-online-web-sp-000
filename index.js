@@ -4,7 +4,7 @@ function findMatching(array, name){
   const matchingNames = [];
   
   for (const userName in array){
-    if userName === name{
+    if (userName === name){
       matchingNames.push(name)
     }
   }
